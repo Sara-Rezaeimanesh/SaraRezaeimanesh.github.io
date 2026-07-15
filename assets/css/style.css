@@ -1875,7 +1875,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article { width: auto; }
 
-  .sidebar { min-width: 350px; }
+  .sidebar { min-width: 300px; max-width: 320px; }
 
   article { min-height: 100%; }
 
@@ -1886,7 +1886,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1600px;
+    max-width: 1400px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -1895,8 +1895,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .main-content {
-    min-width: 70%;
-    width: 70%;
+    min-width: 72%;
+    width: 72%;
     margin: 0;
   }
 
