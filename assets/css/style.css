@@ -557,7 +557,82 @@ main {
 
 
 /**
- * #testimonials 
+ * #publications
+ */
+
+.publications { margin-bottom: 35px; }
+
+.publications-title { margin-bottom: 20px; }
+
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.publication-item {
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+}
+
+.publication-citation {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.publication-citation strong {
+  color: var(--white-1);
+  font-weight: var(--fw-500);
+}
+
+.publication-citation em {
+  color: var(--light-gray-70);
+  font-style: italic;
+}
+
+
+/**
+ * #talks
+ */
+
+.talks { margin-bottom: 35px; }
+
+.talks-title { margin-bottom: 20px; }
+
+.talks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.talk-item {
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+}
+
+.talk-title {
+  color: var(--white-1);
+  margin-bottom: 10px;
+}
+
+.talk-description {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/**
+ * #testimonials
  */
 
 .testimonials { margin-bottom: 30px; }
@@ -1289,7 +1364,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 580px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1555,7 +1630,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: 700px; }
+  .sidebar, article { width: 780px; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
@@ -1674,7 +1749,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 950px;
+    width: 1050px;
     box-shadow: var(--shadow-5);
   }
 
