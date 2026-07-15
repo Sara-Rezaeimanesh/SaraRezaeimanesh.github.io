@@ -337,6 +337,10 @@ main {
   border-radius: 20px;
 }
 
+.avatar-box img {
+  width: 100px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -1365,9 +1369,9 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 580px;
+    width: 650px;
     margin-inline: auto;
-    padding: 30px;
+    padding: 40px;
   }
 
   .article-title {
@@ -1632,7 +1636,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: 780px; }
+  .sidebar, article { width: 850px; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
@@ -1751,7 +1755,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 1050px;
+    width: 1150px;
     box-shadow: var(--shadow-5);
   }
 
